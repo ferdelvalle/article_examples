@@ -110,3 +110,71 @@
   background-color: purple;
   
 }
+
+/* Example five */
+.example-five {
+  width: 100%;
+  height: 200px;
+  background-color: #61b498;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-five-text {
+  font-family: sans-serif;
+  font-size: 100px;
+  color: #61a3b4;
+}
+
+/* Example six */
+.example-six {
+  width: 100%;
+  height: 200px;
+  background-color: #3d0425;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-six-text {
+  font-family: sans-serif;
+  font-size: 100px;
+  color: #3a045e;
+}
+
+/* Example seven */
+.example-seven {
+  width: 100%;
+  height: 200px;
+  background-color: #043d15;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-seven-text {
+  font-family: sans-serif;
+  font-size: 100px;
+  color: #3dd6eb;
+}
+
+/* Example eight */
+.example-eight {
+  width: 100%;
+  height: 200px;
+  background-color: #e066ad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-eight-text {
+  font-family: sans-serif;
+  font-size: 100px;
+  color: #3a045e;
+}
