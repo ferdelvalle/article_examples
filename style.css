@@ -17,6 +17,8 @@
   margin: 0 0 30px 50px ;
 }
 
+/* SPACING */
+
 /* Example One */
 .example-one {
   display: grid;
@@ -66,7 +68,7 @@
   margin: 15px 35px;
 }
 
-/* Example two */
+/* Example Two */
 .example-two {
   margin: 0 50px;
   display: grid;
@@ -80,7 +82,7 @@
   background-color: red;
 }
 
-/* Example three */
+/* Example Three */
 .example-three {
   margin: 0 50px;
   display: grid;
@@ -94,8 +96,7 @@
   margin:  0 40px 160px 0;
 }
 
-
-/* Example four */
+/* Example Four */
 .example-four {
   margin: 0 50px;
   display: grid;
@@ -111,7 +112,9 @@
   
 }
 
-/* Example five */
+/* CONTRAST */
+
+/* Example Five */
 .example-five {
   width: 100%;
   height: 200px;
@@ -128,7 +131,7 @@
   color: #61a3b4;
 }
 
-/* Example six */
+/* Example Six */
 .example-six {
   width: 100%;
   height: 200px;
@@ -145,7 +148,7 @@
   color: #3a045e;
 }
 
-/* Example seven */
+/* Example Seven */
 .example-seven {
   width: 100%;
   height: 200px;
@@ -162,7 +165,7 @@
   color: #3dd6eb;
 }
 
-/* Example eight */
+/* Example Eight */
 .example-eight {
   width: 100%;
   height: 200px;
@@ -177,4 +180,99 @@
   font-family: sans-serif;
   font-size: 100px;
   color: #3a045e;
+}
+
+/* UNIFORMITY */
+
+/* Example Nine */
+
+.example-nine {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(205, 232, 248);
+  display: flex;
+  flex-direction: row;
+}
+
+.example-nine-container-1 {
+  background-color: lightblue;
+  width: 150px;
+  height: 75px;
+  text-align: right;
+  padding: 15px;
+}
+
+.example-nine-container-2 {
+  background-color: lightgreen;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 0 20px 150px;
+  border-radius: 10%;
+  border: 3px solid green;
+  box-shadow: 0px 0px 7px 7px rgba(10, 107, 2, 0.3);
+}
+
+.example-nine-container-3 {
+  background-color: lightpink;
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 50px;
+  margin-left: 70px;;
+}
+
+.example-nine-container-1-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: blue
+}
+
+.example-nine-container-2-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: green;
+}
+
+.example-nine-container-3-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: purple
+}
+
+/* Example Ten */
+
+.example-ten {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(169, 252, 206);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.example-ten-container {
+  background-color: lightgreen;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10%;
+  border: 3px solid green;
+  box-shadow: 0px 0px 7px 7px rgba(10, 107, 2, 0.3);
+}
+
+.example-ten-container-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: green;
 }
