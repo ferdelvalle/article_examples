@@ -1,1 +1,112 @@
-/* Examples go here */
+/* Commons */
+.topic {
+  font-family: sans-serif;
+  font-size: 65px;
+  margin: 50px 0 0 50px;
+}
+
+.title {  
+  font-family: sans-serif;
+  font-size: 50px;
+  margin: 50px 0 15px 50px;
+}
+
+.subtitle {
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 0 0 30px 50px ;
+}
+
+/* Example One */
+.example-one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 100px;
+}
+
+.example-one-element {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.element-1 {
+  margin: 10px 45px;
+}
+
+.element-2 {
+  margin: 30px 5px;
+}
+
+.element-3 {
+  margin: 5px 45px;
+}
+
+.element-4 {
+  margin: 17px 10px;
+}
+
+.element-5 {
+  margin: 15px 15px;
+}
+
+.element-6 {
+  margin: 5px 5px;
+}
+
+.element-7 {
+  margin: 35px 35px;
+}
+
+.element-8 {
+  margin: 15px 45px;
+}
+
+.element-9 {
+  margin: 15px 35px;
+}
+
+/* Example two */
+.example-two {
+  margin: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
+
+.example-two-element {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+/* Example three */
+.example-three {
+  margin: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.example-three-element {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin:  0 40px 160px 0;
+}
+
+
+/* Example four */
+.example-four {
+  margin: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 60px;
+  grid-row-gap: 30px;
+}
+
+.example-four-element {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  
+}
