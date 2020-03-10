@@ -1,4 +1,4 @@
-# article_examples
+## Examples for my Hackernoon article "Three Design Principles Your CSS Needs"
 HTML and CSS examples for my article about design principles and CSS
 
 This full article can be found at [Hackernoon here][art]
